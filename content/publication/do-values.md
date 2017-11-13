@@ -2,8 +2,9 @@
 title = "Do Values Grow on Trees?: Expression Integrity in Functional Programming"
 date = "2011-09-01"
 
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["Guillaume Marceau, Kathi Fisler, Shriram Krishnamurthi"]
+authors = ["Guillaume Marceau", "Kathi Fisler", "Shriram Krishnamurthi"]
 
 # Publication type.
 # Legend:
