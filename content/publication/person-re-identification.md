@@ -1,9 +1,9 @@
 +++
-title = "A Person Re-Identification System For Mobile Devices"
-date = "2015-09-01"
+title = "Do Values Grow on Trees?: Expression Integrity in Functional Programming"
+date = "2011-09-01"
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen"]
+authors = ["Guillaume Marceau, Kathi Fisler, Shriram Krishnamurthi"]
 
 # Publication type.
 # Legend:
@@ -14,14 +14,16 @@ authors = ["GA Cushen"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["2"]
+publication_types = ["1"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
-publication_short = "In *SITIS*"
+publication = "In SIGCSE International Computing Education Research Workshop"
+#publication_short = "In *SITIS*"
 
 # Abstract and optional shortened version.
-abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
+
+abstract = "We posit that functional programmers employ a notion called expression integrity to understand programs. We attempt to study the extent to which both novices and experts use this notion as they program, discuss the difficulties that arise in measuring this, and offer some observational findings. From extensive discussions with experienced functional programmers, we find (anecdotally) that when reading, reviewing, and editing programs they understand programs as trees of expressions, not as a sequence of characters. We use the term expression integrity to capture this notion of understanding programs, and examine it in more detail. This concept is especially important in functional programs because everything other than a definition is an expression, even the control operations. We suspect, but don’t study here, that this concept also applies to imperative programs that have shallow expressions but do have statements that can nest several levels (e.g., an assignment inside a conditional inside a loop inside a function)."
+
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -33,18 +35,9 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
 
 # Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
+url_pdf = "/papers/Marceau-2011-Do-Values-Grow-on-Trees.pdf"
 
 # Does the content use math formatting?
 math = true
@@ -58,6 +51,12 @@ highlight = true
 image = ""
 caption = ""
 
+
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+That was a really fun paper, though too subtle for its own good. We provided
+some supporting evidence for the idea that thinking in expression is a key
+skills students develop during their first programming course. They transition
+from seeing the code as a sequence of letter, the seeing nested expressions. We
+did it with an cool custom A* search, and we got statistical significance (which
+is always hard in education topic.)

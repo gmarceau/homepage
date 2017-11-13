@@ -10,7 +10,7 @@ title = "Selected Publications"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 10
+weight = 20
 
 # List format.
 #   0 = Simple
@@ -30,4 +30,3 @@ list_format = 1
 #  6: Book chapter
 publication_type = "-1"
 +++
-

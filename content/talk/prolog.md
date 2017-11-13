@@ -24,6 +24,7 @@ projects = []
 
 # Links (optional).
 url_video = "https://www.youtube.com/watch?v=Q663XyxmGUk"
+url_custom = [{name = "transcript", url = "https://github.com/bangbangcon/bangbangcon.github.io/blob/master/2014-transcripts/guillaume-marceau-the-terrible-yook-monster.txt"}]
 
 # Does the content use math formatting?
 math = true

@@ -138,7 +138,7 @@ defaultContentLanguageInSubdir = false
   highlight_style = "github"
 
   # Enable native social sharing buttons?
-  sharing = true
+  # sharing = true
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -230,18 +230,23 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Home"
-  url = "#about"
+  url = ""
   weight = 1
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
+  weight = 2
+
+[[menu.main]]
+  name = "Publications"
+  url = "#publications_selected"
   weight = 3
+
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 4
 
 [[menu.main]]
   name = "Mentorship"
