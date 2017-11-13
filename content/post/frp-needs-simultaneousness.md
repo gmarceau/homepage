@@ -4,7 +4,9 @@ draft = false
 tags = []
 title = "FRP Needs Simultaneousness"
 math = true
-summary = ""
+
+summary = """Functional reactive programming may be missing key distinction
+between event time and event deconstruction."""
 
 [header]
 # image = "headers/getting-started.png"
