@@ -157,3 +157,5 @@ makePointStream(xDoubleStream, ySquareStream)
 
 But the tricky part would be in the implementation, in particular, the handling
 and maintaining of the same-time versus same-value distinction.
+
+(originally posted [on Medium](https://medium.com/@gmarceau/frp-needs-simultaneousness-6c3e5a6ce7c2))

@@ -1,10 +1,10 @@
 +++
-date = 2017-03-22
+date = 2017-02-21
 draft = false
 tags = []
 title = "The Story of How We Bought our C-Max"
 math = true
-summary = ""
+summary = "The story of arriving at a lovely solution via carefully overthining, presented with a cartoon."
 
 [header]
 # image = "headers/getting-started.png"
@@ -12,4 +12,7 @@ summary = ""
 
 +++
 
-![The CMax Story](img/cmax-story.jpg)
+![Example image](/img/cmax-story.jpg)
+
+
+(originally posted [on Medium](https://medium.com/@gmarceau/the-story-of-how-we-bought-our-c-max-8a837b86a40f))

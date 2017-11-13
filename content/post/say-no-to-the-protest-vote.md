@@ -12,7 +12,7 @@ summary = "Discussing the ethics of voting when all candidates have various form
 
 +++
 
-# Thoughts on the Political Style of the United States
+## Thoughts on the Political Style of the United States
 
 As you might know, I am a Quebecois progressive living in the United States. It
 goes without saying that being a (1) left-progressive (2) from the renowned
@@ -90,3 +90,6 @@ as nothing but political laziness, and instead
 [help drive](http://www.drive2vote.org/)
 [like-minded folks](https://www.drive.vote/) to the polls in [tipping-point
 regions](http://projects.fivethirtyeight.com/2016-election-forecast/#tipping-point).
+
+
+(originally posted [on Medium](https://medium.com/@gmarceau/say-no-to-the-protest-vote-cd6352ac5991))
