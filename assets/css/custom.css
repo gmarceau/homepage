@@ -1,0 +1,17 @@
+body {
+  font-family: 'Fauna One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+pre, code, kbd, samp,
+.prose pre, .prose code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+html {
+   font-size: 20px; /* 1.5× the browser default 16px */
+}
