@@ -1,0 +1,6 @@
+baseURL = "https://gmarceau.qc.ca/"
+defaultContentLanguage = "en"
+theme = "congo"
+title = "Guillaume Marceau"
+enableEmoji = true
+paginate = 10

@@ -1,0 +1,16 @@
+colorScheme = "ocean"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+
+[homepage]
+  layout = "profile"
+  showRecent = true
+  recentLimit = 4
+
+[article]
+  showDate = true
+  showReadingTime = true
+  showSummary = true
+
+[list]
+  showSummary = true

@@ -1,0 +1,19 @@
+[[main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 20
+
+[[main]]
+  name = "Talks"
+  url = "/talks/"
+  weight = 30
+
+[[main]]
+  name = "Mentorship"
+  url = "/mentorship/"
+  weight = 40

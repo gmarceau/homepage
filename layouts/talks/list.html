@@ -1,0 +1,32 @@
+{{ define "main" }}
+  <header>
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+  </header>
+  <section class="mt-8">
+    {{ range .Pages.ByDate.Reverse }}
+      <div class="mb-10 border-b border-neutral-200 pb-10 dark:border-neutral-700">
+        <h2 class="mb-1 mt-0 text-xl font-bold">
+          <a class="text-neutral-900 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400" href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+        {{ with .Params.event }}
+          <p class="mb-1 text-sm text-neutral-500 dark:text-neutral-400">
+            {{ if $.Params.event_url }}<a href="{{ $.Params.event_url }}">{{ . }}</a>{{ else }}{{ . }}{{ end }}
+            {{ with $.Params.location }} &middot; {{ . }}{{ end }}
+            {{ with $.Date }} &middot; {{ .Format "January 2006" }}{{ end }}
+          </p>
+        {{ end }}
+        {{ with .Params.abstract }}
+          <p class="mb-2 text-base text-neutral-700 dark:text-neutral-300">{{ . | truncate 250 "…" }}</p>
+        {{ end }}
+        <div class="flex gap-3 text-sm">
+          {{ with .Params.url_video }}
+            <a class="rounded bg-primary-100 px-2 py-0.5 font-medium text-primary-700 hover:bg-primary-200 dark:bg-primary-900 dark:text-primary-300 dark:hover:bg-primary-800" href="{{ . }}">Video</a>
+          {{ end }}
+          {{ with .Params.url_transcript }}
+            <a class="rounded bg-neutral-100 px-2 py-0.5 font-medium text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-600" href="{{ . }}">Transcript</a>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

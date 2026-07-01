@@ -1,0 +1,14 @@
+locale = "en"
+label = "English"
+
+[params.author]
+  name = "Guillaume Marceau"
+  image = "img/portrait.jpg"
+  headline = "A Kind Québécois Computer Scientist"
+  bio = "Computer scientist in New York. Husband to Linnea, father of curious little Adaline."
+  links = [
+    { email = "mailto:me@gmarceau.qc.ca" },
+    { github = "https://github.com/gmarceau" },
+    { x-twitter = "https://twitter.com/gmarceau" },
+    { google-scholar = "https://scholar.google.com/citations?user=DFJca0EAAAAJ" },
+  ]

@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <article class="max-w-prose">
+    <header class="mb-8">
+      <h1 class="mb-4 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
+      {{ with .Params.authors }}
+        <p class="mb-1 text-base text-neutral-600 dark:text-neutral-400">
+          {{ delimit . ", " }}
+        </p>
+      {{ end }}
+      {{ with .Params.publication }}
+        <p class="mb-1 text-base italic text-neutral-500 dark:text-neutral-400">{{ . }}</p>
+      {{ end }}
+      {{ with .Date }}
+        <p class="mb-4 text-sm text-neutral-500 dark:text-neutral-400">{{ .Format "January 2006" }}</p>
+      {{ end }}
+      {{ with .Params.abstract }}
+        <div class="mb-6 rounded-lg bg-neutral-50 p-4 dark:bg-neutral-700">
+          <h3 class="mb-2 mt-0 text-sm font-semibold uppercase tracking-wide text-neutral-500 dark:text-neutral-400">Abstract</h3>
+          <p class="text-base text-neutral-700 dark:text-neutral-300">{{ . }}</p>
+        </div>
+      {{ end }}
+      <div class="flex gap-3 text-sm">
+        {{ with .Params.url_pdf }}
+          <a class="rounded bg-primary-100 px-3 py-1 font-medium text-primary-700 hover:bg-primary-200 dark:bg-primary-900 dark:text-primary-300 dark:hover:bg-primary-800" href="{{ . }}">PDF</a>
+        {{ end }}
+        {{ with .Params.url_article }}
+          <a class="rounded bg-neutral-100 px-3 py-1 font-medium text-neutral-700 hover:bg-neutral-200 dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-neutral-600" href="{{ . }}">Article</a>
+        {{ end }}
+      </div>
+    </header>
+    {{ with .Content }}
+      <section class="prose dark:prose-invert">
+        {{ . | emojify }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}
