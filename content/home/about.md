@@ -43,5 +43,5 @@ we used deep learning and singular value decomposition to understand the human
 body shape from data (rather than from art or from physics.) At Stellar, we
 built a counter-party ledger cryptocurrency which is designed to help the poor
 of the world get access financial services. At Sefaira, we built true-to-physics
-simulations of the energy consumption of green building, a tour-de-force of
+simulations of the energy consumption of green buildings, a tour-de-force of
 high-performance physics computation delivered with impeccable UX design.
