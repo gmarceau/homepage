@@ -1,8 +1,5 @@
-FROM hugomods/hugo:exts-0.147.9 AS builder
+FROM hugomods/hugo:exts-0.154.5
 WORKDIR /src
 COPY . .
+RUN rm -rf themes/congo && git clone --depth 1 --branch v2.13.0 https://github.com/jpanther/congo.git themes/congo
 RUN hugo --minify --gc
-
-FROM nginx:alpine
-COPY --from=builder /src/public /usr/share/nginx/html
-EXPOSE 80

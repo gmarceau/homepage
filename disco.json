@@ -1,7 +1,9 @@
 {
+  "version": "1.0",
   "services": {
     "web": {
-      "port": 80
+      "type": "generator",
+      "publicPath": "public"
     }
   }
 }

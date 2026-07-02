@@ -3,4 +3,5 @@ defaultContentLanguage = "en"
 theme = "congo"
 title = "Guillaume Marceau"
 enableEmoji = true
-paginate = 10
+[pagination]
+  pagerSize = 10
